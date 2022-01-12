@@ -1,4 +1,4 @@
-# Create NFT with JS
+# Create NFT with JS & Solidity
 
 this is a step by step guide on how to create an **NFT** using javascript from scratch
 
