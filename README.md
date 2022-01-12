@@ -2,6 +2,20 @@
 
 this is a step by step guide on how to create an **NFT** using javascript from scratch
 
+### Built With
+
+This are all the things that we need:
+
+- [Node](https://nodejs.org/)
+- [Npm](https://www.npmjs.com/)
+- [Alchemy](https://www.alchemy.com/)
+- [Metamask](https://metamask.io/)
+- [Faucet](https://faucet.ropsten.be/)
+- [Hardat](https://hardhat.org/)
+- [Pinata](https://pinata.cloud/)
+- [Etherscan](https://ropsten.etherscan.io/)
+
+
 ## Create an Alchemy account
 [Alchemy](https://www.alchemy.com/) help us create our NFT.
 Navigate to the website and register your account.
@@ -89,6 +103,8 @@ Now, we’ll go to the [Alchemy Mempool](https://dashboard.alchemyapi.io/mempool
 
 You can also search your contract address on [Etherscan](https://ropsten.etherscan.io/) a see all the record of your NFT
 
+([back to top](https://github.com/tizianocappai/create-nft-with-js#top))
+
 ## Adding our NFT to our MetaMask wallet
 
 1.  Check connection to the Ropsten Test Network
@@ -97,13 +113,16 @@ You can also search your contract address on [Etherscan](https://ropsten.ethersc
 4.  Copy the contract address of your new token from Etherscan and paste it into MetaMask. MetaMask will automatically generate the token’s symbol.
 5.  Click  **next**  to add the token to your wallet
 
+([back to top](https://github.com/tizianocappai/create-nft-with-js#top))
 
 ## Adding our NFT to our MetaMask wallet (Mobile Version)
 
-1.  Download the Metamask app and log in
-2.  At the top select Ropsten Test Network
-3.  Click  **NFTs**  button
-4.  Click  **Import NFTs**  button
-5.  Copy the contract address of your new token from Etherscan and paste it into MetaMask.
-6.  Go to [Etherscan](https://ropsten.etherscan.io/) search your contract address, to the right you will have TokenTracker field click on it then at the bottom you can see your TokenId, copy and paste into Metamask.
+1. Download the Metamask app and log in
+2. At the top select Ropsten Test Network
+3. Click  **NFTs**  button
+4. Click  **Import NFTs**  button
+5. Copy the contract address of your new token from Etherscan and paste it into MetaMask.
+6. Go to [Etherscan](https://ropsten.etherscan.io/) search your contract address, to the right you will have TokenTracker field click on it then at the bottom you can see your TokenId, copy and paste into Metamask.
 7. Click  **Import **  to add your NFT to your wallet
+
+([back to top](https://github.com/tizianocappai/create-nft-with-js#top))
