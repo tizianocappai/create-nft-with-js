@@ -37,7 +37,10 @@ First, enter your wallet address, which you can copy from the top of **Metamask*
 ## Time to Action
 
 Clone this Repo and open the root folder.
-Open the terminal in the root folder and do  `npm i`
+Open the terminal in the root folder and do  
+```sh
+npm install
+```
 
 ## Hardat Env
 
@@ -54,7 +57,10 @@ Fill the environment variables with your data in your wallet.
 ## Hardat Compile
 
 Now is the time to compile!
-Run `npx hardhat compile` in the root.
+Run this command in the root.
+```sh
+npx hardhat compile
+```
 
 You should see a success message like the one below. You can ignore the warnings that appear in the terminal.
 
@@ -64,8 +70,9 @@ In the scripts folder you will find a file call deploy.js.
 This file allow us to deploy our smart contract to the Ethereum blockchain.
 
 Now, we can run the Hardhat deploy task.
-
-    npx hardhat run scripts/deploy.js --network ropsten
+```sh
+npx hardhat run scripts/deploy.js --network ropsten
+```
 We add the `--network ropsten` flag to tell Hardhat to connect to a specific network, in our case, Ropsten.
 
 After a few seconds, we can see the newly created address for our smart contract.
@@ -95,8 +102,10 @@ Go to the mint-nft.js file.
 In the last line you will see a mintNFT function, change the value inside with the correct CID to the JSON file that we uploaded to Pinata
 
 ## The Grand Finale
-Now go on the terminal always in the root and do `node scripts/mint-nft.js`
-
+Now go on the terminal always in the root and do 
+```sh
+node scripts/mint-nft.js
+```
 if you followed all the steps correctly you should see a success message confirming the creation of your NFT
 
 Now, we’ll go to the [Alchemy Mempool](https://dashboard.alchemyapi.io/mempool), which tracks the status of all the transactions happening on our account without having to use Etherscan.
