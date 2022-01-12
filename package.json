@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "Cappai Tiziano",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
     "ethers": "^5.5.3",
